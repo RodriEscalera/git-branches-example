@@ -6,7 +6,8 @@ app.use(express.json());
 app.use(morgan("dev"));
 
 const consologuear = () => {
-  console.log("hola mundo");
+  console.log("hola gente!");
+  return "hola gente";
 };
 consologuear();
 app.listen(3001, () => {

@@ -6,9 +6,17 @@ app.use(express.json());
 app.use(morgan("dev"));
 
 const consologuear = () => {
-  console.log("hola mundo");
+  console.log("hola amigo de youtube");
+
+  return "hola amigos de youtube!";
 };
+
+const saludar = () => {
+  console.log("Hola pibe!");
+};
+
 consologuear();
-app.listen(3001, () => {
-  console.log("listening on port 3001");
+saludar();
+app.listen(3002, () => {
+  console.log("listening on port 3002");
 });

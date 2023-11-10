@@ -5,6 +5,10 @@ const morgan = require("morgan");
 app.use(express.json());
 app.use(morgan("dev"));
 
-app.listen(3000, () => {
-  console.log("listening on port 3000");
+const consologuear = () => {
+  console.log("hola mundo");
+};
+consologuear();
+app.listen(3001, () => {
+  console.log("listening on port 3001");
 });

@@ -6,12 +6,13 @@ app.use(express.json());
 app.use(morgan("dev"));
 
 const consologuear = () => {
-  console.log("hola mundo");
-  return "hola mundo";
+  console.log("aguante san lorenzo");
+
+  return "aguante san lorenzo";
 };
 
-const cocoBasile = () => {
-  return "blue label de johnny walker";
+const saludar = () => {
+  return "hola que haces";
 };
 
 consologuear();

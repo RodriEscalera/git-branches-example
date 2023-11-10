@@ -6,13 +6,13 @@ app.use(express.json());
 app.use(morgan("dev"));
 
 const consologuear = () => {
-  console.log("hola amigo de youtube");
+  console.log("aguante san lorenzo");
 
-  return "hola amigos de youtube!";
+  return "aguante san lorenzo";
 };
 
 const saludar = () => {
-  console.log("Hola pibe!");
+  return "hola que haces";
 };
 
 consologuear();
